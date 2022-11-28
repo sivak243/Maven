@@ -9,9 +9,11 @@ public class App {
 		String userName=rb.getString("username");
 		String password=rb.getString("password");
 		
+		
+		
 		if(in_user.equals(userName) && in_pwd.equals(password))
-			return 1;
-		else
 			return 0;
+		else
+			return 1;
 	}
 }
